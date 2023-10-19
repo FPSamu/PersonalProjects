@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cabin:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100%;
+    width: 100%;
+    background-color: #000010;
+    color: white;
+}
+
+.home {
+    width: 100%;
+    max-height: 100%;
+    height: auto; /* Adjusted height for responsiveness */
+    color: #fff;
+}
+
+.home h4 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2rem;
+    text-align: center; /* Centered for responsiveness */
+    padding-top: 20px; /* Added padding for spacing */
+}
+
+.home h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4rem;
+    max-width: 600px;
+    text-align: center; /* Centered for responsiveness */
+    margin: 0 auto; /* Centered for responsiveness */
+    padding: 20px 0; /* Added padding for spacing */
+}
+
+.main-container .home h1 span {
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.home img {
+    max-width: 100%;
+    height: auto; /* Maintain aspect ratio for responsiveness */
+    display: block;
+    margin: 0 auto; /* Centered for responsiveness */
+    border-radius: 50%;
+    padding: 20px 0; /* Added padding for spacing */
+}
+
+.menu {
+    text-align: center; /* Centered for responsiveness */
+    padding: 20px 0; /* Added padding for spacing */
+}
+
+.menu nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center; /* Centered for responsiveness */
+}
+
+.menu-option {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5rem;
+    border: 2px solid transparent;
+    padding: 5px;
+}
+
+.menu-option:hover {
+    color: #D4AF37;
+    border-color: #D4AF37;
+}
+
+.btn-contact {
+    margin: 20px auto; /* Centered for responsiveness */
+    background-color: #5564eb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.btn-contact:hover {
+    background-color: #094293;
+}
+
+.btn-home {
+    margin: 10px auto; /* Centered for responsiveness */
+    background-color: #5564eb;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 2rem;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 1rem;
+    display: block;
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 200px; /* Added max-width for responsiveness */
+}
+
+.btn-home a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-home:hover {
+    background-color: #094293;
+}
+
+.portfolio, .about, .blog {
+    max-width: 100%;
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+    /* Adjust styles for screens larger than 768px */
+    .home {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        height: 100vh; /* Adjusted height for larger screens */
+        padding: 20px;
+    }
+
+    .home h4,
+    .home h1 {
+        text-align: left;
+    }
+
+    .menu {
+        margin-top: 0;
+    }
+
+    .home img {
+        max-width: 350px;
+        height: auto;
+        margin: 0;
+    }
+}
