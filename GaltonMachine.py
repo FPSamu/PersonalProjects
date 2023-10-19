@@ -1,3 +1,7 @@
+# ESTE ES SOLO UN CAMBIO PARA
+# REVISAR QUE EL REPOSITORIO 
+# FUNCIONE CORRECTAMENTE
+
 from tkinter import *
 from tkinter.ttk import *
 import random
