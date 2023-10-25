@@ -1,7 +1,3 @@
-# ESTE ES SOLO UN CAMBIO PARA
-# REVISAR QUE EL REPOSITORIO 
-# FUNCIONE CORRECTAMENTE
-
 from tkinter import *
 from tkinter.ttk import *
 import random
@@ -41,8 +37,8 @@ class VARIABLES_AND_CONSTS:
     
     global NUM_BALLS
     
-    NUM_BOXES = 13
-    NUM_NAILS_FLOORS = 13
+    NUM_BOXES = 9
+    NUM_NAILS_FLOORS = 15
     
     
     WIDTH_CANVAS = 500; HEIGHT_CANVAS = 500
@@ -68,7 +64,7 @@ class VARIABLES_AND_CONSTS:
     SLOPE_Y = ((HEIGHT_CANVAS/25) * 24) - ((HEIGHT_CANVAS/4) * 3)
     SLOPE_X = (WIDTH_CANVAS/(NUM_BOXES + 2)) * (NUM_BOXES + 1)-(WIDTH_CANVAS/(NUM_BOXES + 2))
     
-    STEP_SIZE = 1
+    STEP_SIZE = .4
     
     global  SLOPE
     SLOPE = SLOPE_Y / SLOPE_X
